@@ -1,0 +1,29 @@
+.box {
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 20vh;
+  width: 33vw;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.11);
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.subtext {
+  font-weight: 400;
+  font-size: 12px;
+}
+.icon {
+  color: #34a489;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

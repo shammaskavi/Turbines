@@ -1,0 +1,44 @@
+.topbar {
+    height: 10vh;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .greetings {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: antiquewhite; */
+  }
+  .greet {
+    font-size: 28px;
+  }
+  .greet-subtext {
+    color: #1a1e25b2;
+    opacity: 70%;
+    font-size: 16px;
+  }
+  
+  .profieSec {
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profileImg {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .name {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px;
+  }
+  

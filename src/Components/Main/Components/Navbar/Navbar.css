@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border-radius: 10px; */
+  box-sizing: initial;
+  border-left: 5px solid #4d5bf9;
+  background: #4d5bf9;
+  transition: 0.5s;
+}
+
+.navigation ul {
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation ul li.active {
+  background-color: #ffffff;
+}
+
+.navigation ul li.active a {
+  color: #333;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.navigation ul li a .icon .listIcon {
+  font-size: 1.5rem;
+}
+
+.navigation ul li a .title {
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  white-space: normal;
+}
+
+.current::before,
+.current::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  height: 40px;
+  width: 20px;
+}
+
+.active::before {
+  bottom: -40px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -25px 0 0 #111111;
+}
+.active::after {
+  top: -40px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 25px 0 0 #ffffff;
+}
+.navigation > div {
+  background: #ffffff;
+  padding: 1em;
+}
+.navigation > div:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* ---- Github styling ---- */
+
+/* .wrapper {
+  width: 30vw;
+  height: 100vh;
+  background-color: #3545f4;
+}
+
+ul {
+  position: relative;
+  left: 0%;
+  top: 15%;
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  width: 200;
+}
+
+li a {
+  width: 100%;
+  border: 2px solid red;
+  display: block;
+  color: white;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 30px;
+  width: 182px;
+}
+.current {
+  color: #111111;
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.current::before,
+.current::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  height: 40px;
+  width: 20px;
+}
+
+.current::before {
+  bottom: -40px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -25px 0 0 #ffffff;
+}
+.current::after {
+  top: -40px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 25px 0 0 #ffffff;
+}
+
+.wrapper > div {
+  background: #ffffff;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+  background: #ffffff;
+} */
